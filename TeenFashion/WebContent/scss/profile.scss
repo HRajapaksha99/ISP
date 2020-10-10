@@ -1,0 +1,15 @@
+$turq: #1abc9c;
+$offWhite: #7f8c8d;
+$white: #ffffff;
+$black: #000000;
+
+
+$navEasingDuration: 500ms;
+
+//My collection of easing functions
+$easeInExpo: all $navEasingDuration cubic-bezier(0.95, 0.05, 0.795, 0.035);
+$easeInBack: all $navEasingDuration cubic-bezier(0.6, -0.28, 0.735, 0.045);
+$easeInOutBack: all $navEasingDuration cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+$navEasing: $easeInExpo;
+$subNavEasing: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
